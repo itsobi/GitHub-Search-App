@@ -27,3 +27,14 @@ img {
   margin: 0 auto;
   padding: 0 20px;
 } */
+
+.repos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.hide {
+  display: none;
+}
